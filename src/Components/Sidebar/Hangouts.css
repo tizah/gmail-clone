@@ -1,0 +1,16 @@
+.hangouts {
+  border-top: 1px solid #eee;
+}
+
+.link > .icon {
+  font-size: x-large;
+}
+
+.link > .hangout__text {
+  margin-left: 10px;
+}
+
+.hangout__div {
+  display: flex;
+  height: 50px;
+}

@@ -1,0 +1,43 @@
+.link {
+  display: flex;
+  padding-left: 25px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarlinks {
+  /* margin-left: 25px;
+  margin-top: 20px; */
+}
+
+.link > .link__text {
+  margin-left: 30px;
+  font-size: medium;
+}
+/* 
+rgba(255, 0, 0, 0.2) */
+.link:hover {
+  background-color: #eee;
+  border-radius: 0 20px 20px 0;
+}
+
+.link > .icon {
+  align-items: center;
+  color: rgb(108, 108, 111);
+}
+
+.inbox-active {
+  background-color: rgb(252, 232, 230);
+  border-radius: 0 20px 20px 0;
+  color: rgb(217, 48, 37);
+  font-weight: 400;
+}
+
+.inbox-active > .icon {
+  color: rgb(217, 48, 37);
+}
+
+.inbox-active:hover {
+  background-color: rgb(252, 232, 230);
+  border-radius: 0 20px 20px 0;
+}
