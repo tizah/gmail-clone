@@ -1,0 +1,4 @@
+.emailcontainer {
+  display: flex;
+  flex-grow: 6;
+}

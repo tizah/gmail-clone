@@ -1,0 +1,20 @@
+.widgets {
+  border-left: 1px solid #eee;
+}
+
+.widgets > .icon > img {
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+}
+
+.widgets > .add {
+  position: relative;
+  left: 12px;
+  top: 10px;
+}
+
+.widgets > .icon:hover {
+  background-color: #eee;
+  border-radius: 50%;
+}
