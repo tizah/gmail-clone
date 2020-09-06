@@ -9,12 +9,12 @@ function Widgets() {
     <div className="widgets">
       <Tooltip title="Calendar" placement="bottom" TransitionComponent={Zoom}>
         <div className="icon">
-          <img src="https://img.icons8.com/color/48/000000/google-calendar.png" />
+          <img src="https://img.icons8.com/color/48/000000/google-calendar.png" alt=""/>
         </div>
       </Tooltip>
       <Tooltip title="Keep" placement="bottom" TransitionComponent={Zoom}>
         <div className="icon">
-          <img src="https://img.icons8.com/color/48/000000/google-keep.png" />
+          <img src="https://img.icons8.com/color/48/000000/google-keep.png" alt="" />
         </div>
       </Tooltip>
 
@@ -22,12 +22,12 @@ function Widgets() {
 
       <Tooltip title="Zoom" placement="bottom" TransitionComponent={Zoom}>
         <div className="icon">
-          <img src="https://img.icons8.com/fluent/48/000000/zoom.png" />
+          <img src="https://img.icons8.com/fluent/48/000000/zoom.png" alt=""/>
         </div>
       </Tooltip>
       <Tooltip title="Mailtrack" placement="bottom" TransitionComponent={Zoom}>
         <div className="icon">
-          <img src="https://img.icons8.com/cotton/64/000000/secure-mail.png" />
+          <img src="https://img.icons8.com/cotton/64/000000/secure-mail.png" alt=""/>
         </div>
       </Tooltip>
       <Tooltip title="Get add-on" placement="bottom" TransitionComponent={Zoom}>
