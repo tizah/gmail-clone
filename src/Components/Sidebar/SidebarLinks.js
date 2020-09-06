@@ -65,7 +65,7 @@ function SidebarLinks() {
       <Tooltip title="Sent" placement="right-start" TransitionComponent={Zoom}>
         <div className="link">
           <div className="icon">
-            <StarRateIcon />
+            <SendIcon />
           </div>
           <div className="link__text">Sent</div>
         </div>
