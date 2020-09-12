@@ -18,3 +18,14 @@
   background-color: #eee;
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 420px) {
+  .widgets {
+    position: relative;
+    left: 200px;
+  }
+  .widgets > .icon .add {
+    margin-left: 15px;
+    top: 10px;
+  }
+}

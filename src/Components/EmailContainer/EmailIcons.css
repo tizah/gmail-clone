@@ -1,0 +1,13 @@
+.checkbox__more > .MuiFormControlLabel-root {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0;
+  margin-right: -5px;
+  vertical-align: initial;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.checkbox__more > .MuiSvgIcon-root {
+  align-items: center;
+}

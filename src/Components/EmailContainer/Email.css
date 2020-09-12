@@ -1,0 +1,51 @@
+.email {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.email > .left {
+  display: flex;
+  align-items: center;
+}
+
+.email > .email__content {
+  width: 700px;
+  height: 1.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 70px;
+  align-items: center;
+}
+
+.email > .right {
+  display: flex;
+  padding-left: 100px;
+  cursor: pointer;
+}
+
+.email > .right > .hover__icons {
+  position: absolute;
+  display: none;
+}
+
+.email:hover .right > .hover__icons {
+  display: block;
+  background-color: #ffffff;
+  padding-left: 10px;
+}
+
+.email > .right > .hover__icons > .MuiSvgIcon-root {
+}
+
+.email:hover {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.email > .right > .time {
+  position: relative;
+  left: 0px;
+}

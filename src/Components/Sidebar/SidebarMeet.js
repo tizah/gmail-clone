@@ -3,6 +3,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import VideocamIcon from "@material-ui/icons/Videocam";
 import KeyboardIcon from "@material-ui/icons/Keyboard";
 import Zoom from "@material-ui/core/Zoom";
+import TransitionsModal from "./TransitionsModal";
 import "./SidebarMeet.css";
 function SidebarMeet() {
   return (
@@ -26,6 +27,7 @@ function SidebarMeet() {
         placement="right-start"
         TransitionComponent={Zoom}
       >
+        {/* TODO: click on the button the show the modal to join a meeting */}
         <div className="link">
           <div className="icon">
             <KeyboardIcon />

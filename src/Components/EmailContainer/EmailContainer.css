@@ -1,4 +1,25 @@
 .emailcontainer {
   display: flex;
   flex-grow: 6;
+  height: 50px;
+  flex-direction: column;
+}
+
+.emailcontainer > .icons {
+  display: flex;
+  align-items: center;
+
+  margin: 10px 0 0 5px;
+}
+
+.emailcontainer > .icons > .MuiSvgIcon-root {
+  margin: 0 10px;
+}
+
+.emailcontainer > .icons > .MuiSvgIcon-root:hover {
+  background-color: #eee;
+}
+.eamilList {
+  position: relative;
+  padding: 10px;
 }
